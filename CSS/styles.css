@@ -1,0 +1,626 @@
+@import url(//db.onlinewebfonts.com/c/2167e76f00e569cc11b3665679996380?family=Futura+Light);
+
+* {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    color: black;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+
+header .navbar a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    padding: .5rem 1.5rem;
+    color: black;
+}
+
+header .navbar a:hover {
+    content: icon;
+    color: #fff;
+    background-color: red;
+    transform: translateY(1rem);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    color: #fff;
+}
+
+.dropdown-content a {
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: #555;
+}
+
+header .icons #menu-bars {
+    display: none;
+}
+
+.section-home {
+    background-color: black;
+    color: aliceblue;
+    margin-top: 4px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    font-weight: 900;
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-2 {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.pro-1 {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 20px 50px;
+    margin: 20px 50px 50px 50px;
+
+}
+
+.pro-1 h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.description {
+    padding-top: 30px;
+    padding-right: 100px;
+}
+
+.pro-1 img {
+    width: 500px;
+}
+
+.pro-1 p {
+    font-family: 'Futura Light';
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    border-color: aliceblue;
+    color: white;
+}
+
+.roles {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.goal {
+    padding-left: 5rem;
+}
+
+.pro-2 {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 50px 70px 50px;
+    margin: 20px 50px 50px 50px;
+
+}
+
+.pro-2 h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.description {
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-left: 30px;
+}
+
+.pro-2 img {
+    width: 500px;
+    padding-left: 20px;
+}
+
+.pro-2 p {
+    font-family: 'Futura Light';
+
+}
+
+.pro-3 {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 50px 70px 50px;
+    margin: 10px 50px 50px 50px;
+
+}
+
+.pro-3 h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.description {
+    padding-top: 30px;
+    padding-right: 100px;
+
+}
+
+.pro-3 img {
+    width: 500px;
+}
+
+.pro-3 p {
+    font-family: 'Futura Light';
+}
+
+.section-3 {
+    padding-left: 200px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.work ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.work li {
+    padding-top: -50rem;
+}
+
+.work p {
+    font-size: 20px;
+}
+
+.work {
+    margin-bottom: 60px;
+}
+
+.section-about {
+    background-color: rgb(15, 15, 15);
+    color: aliceblue;
+    margin-top: 4px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-about img {
+    width: 500px;
+    height: 500px;
+    border-radius: 3rem;
+
+}
+
+.footer {
+    list-style: none;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    margin: 0;
+
+}
+
+.footer p {
+    color: #fff;
+    font-family: 'Futura Light';
+    margin-left: 80rem;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer ul li {
+    padding-left: 3rem;
+}
+
+.footer i {
+    color: #fff;
+    width: 30px;
+}
+
+.footer img {
+    width: 90px;
+}
+
+/*case studies*/
+.ticketing {
+    background-color: black;
+}
+
+.ticketing img {
+    width: 1000px;
+    align-items: center;
+    padding-left: 90px;
+}
+
+.ticketing {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+}
+
+
+.problem .description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.problem .description h1 {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.problem .prob p {
+    margin-left: 250px;
+    margin-right: 40px;
+
+}
+
+.problem .prob .para-1 {
+    font-family: 'Futura PT', sans-serif;
+    font-size: 25px;
+}
+
+.problem .prob .para-2 {
+    font-family: "Futura Light";
+    font-size: 20px;
+}
+
+.problem .role {
+    margin-left: 450px;
+}
+
+.problem .role .para-1 {
+    font-family: 'Futura PT', sans-serif;
+    font-size: 15px;
+}
+
+.problem .role .para-2 {
+    font-family: 'Futura Light';
+    font-size: 10px;
+}
+
+.problem .goal {
+    margin-right: 40px;
+    padding-right: 40px;
+}
+
+.problem .goal .para-1 {
+    font-family: 'Futura PT', sans-serif;
+    font-size: 15px;
+}
+
+.problem .goal .para-2 {
+    font-family: 'Futura Light';
+    font-size: 10px;
+}
+
+.problem .team {
+    margin-left: 55px;
+}
+
+.problem .team .para-1 {
+    font-family: 'Futura PT', sans-serif;
+    font-size: 15px;
+}
+
+.problem .team .para-2 {
+    font-family: 'Futura Light';
+    font-size: 10px;
+}
+
+.Roles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Roles h1 {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.Roles .role-1 {
+    margin-left: 250px;
+    margin-right: 40px;
+}
+
+.Roles .role-1 .para-1 {
+    font-family: 'Futura PT', sans-serif;
+    font-size: 25px;
+}
+
+.Roles .role-1 .para-2 {
+    font-family: 'Futura Light';
+    font-size: 20px;
+}
+
+.Roles .role-1 p {
+    margin-left: 95px;
+    margin-right: 40px;
+}
+
+.userpain-points img {
+    margin-left: 200px;
+    margin-top: 40px;
+    width: 800px;
+}
+
+.persona img {
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 800px;
+}
+
+.user-journey img {
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 800px;
+}
+
+.paper img {
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 800px;
+}
+
+.paper-wire img {
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 300px;
+    border-radius: 2rem;
+}
+
+.low-fi img {
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 300px;
+    border-radius: 2rem;
+}
+
+.findings img {
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 300px;
+    border-radius: 2rem;
+}
+
+.starting {
+    display: flex;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.Refining img {
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 800px;
+}
+
+.mockups {
+    display: flex;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-left: 10px;
+
+}
+
+.mockup-1 img {
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 300px;
+    border-radius: 2rem;
+}
+
+.mockup-2 img {
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 400px;
+    border-radius: 2rem;
+}
+
+.mockup-3 img {
+    margin-left: 10px;
+    margin-top: 100px;
+    width: 300px;
+    border-radius: 2rem;
+}
+
+.high-fi img {
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 800px;
+}
+
+.section-connect {
+    background-color: rgb(37, 36, 36);
+    color: aliceblue;
+    margin-top: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    font-weight: 900;
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.section-connect h1 {
+    font-size: xx-large;
+}
+
+.section-about .description p {
+    font-family: 'Futura Light';
+}
+
+.working {
+    display: flex;
+    margin-left: 100px;
+    padding-right: 250px;
+
+}
+
+.description {
+    font-family: 'Poppins', sans-serif;
+    margin-right: 3rem;
+}
+
+.experience p {
+    font-family: 'Futura Light';
+}
+
+.experience {
+    margin-top: 4rem;
+    padding: 0 200px 20px 20px;
+    margin-left: 40px;
+}
+
+/* left */
+.starting .low-fi .top-left {
+    position: absolute;
+    top: 100px;
+    left: 16px;
+}
+
+.low-fi {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.low-fi button {
+    width: 100%;
+    height: 30px;
+}
+
+.low-fi a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.high-fi .bottom-left {
+    position: absolute;
+    bottom: 80px;
+    left: 16px;
+    margin-left: 30rem;
+    margin-bottom: 50px;
+}
+
+.high-fi {
+    position: relative;
+    color: white;
+}
+
+.high-fi button {
+    width: 100%;
+    height: 30px;
+}
+
+.high-fi a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*animation*/
+.centered h1 {
+    animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: orange;
+    }
+
+    50% {
+        color: rgb(0, 0, 0);
+    }
+
+    75% {
+        color: rgb(238, 238, 238);
+    }
+
+    100% {
+        color: rgb(7, 110, 135);
+    }
+}
+
+.work img {
+    width: 200px;
+}
